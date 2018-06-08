@@ -19,7 +19,7 @@ p{
     border: 1px solid red;
 }
 .logo_box{
-    border: 1px solid green;
+    /*border: 1px solid green;*/
 }
 
 .logo_box img{
@@ -53,8 +53,12 @@ p{
 .mini_circle_div{
     width: 25px;
     height: 25px;
+
     /*margin-top: 5px;*/
     /*margin-bottom: 5px;*/
+}
+.mini_circle_div h6{
+    line-height: 25px;
 }
 
 .circle_div h5{
@@ -76,7 +80,9 @@ p{
 .blue_div{
     background: var(--blue);
 }
-
+.card_props{
+}
 .card_props img{
     width: 100%;
+
 }
