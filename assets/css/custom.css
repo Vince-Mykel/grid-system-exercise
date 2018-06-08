@@ -1,3 +1,19 @@
+body{
+    --orange: #e6563b;
+    --yellow: rgb(241,158,0);
+    --green: #7cb06c;
+    --blue: #00aba9;
+    --gray:#e6e6e6;
+    --silver: #f0f0f0;
+    box-sizing: border-box;
+
+}
+h1,h2,h3,h4,h5{
+    font-family: 'Anton';
+}
+p{
+    font-family: 'Abel';
+}
 .space_div{
     border: 1px solid red;
 }
@@ -14,4 +30,27 @@
     max-height: 45px;
     margin-top: 30px;
     margin-bottom: 30px;
+}
+.spacer{
+    height: 10em;
+}
+.circle_div{
+    width: 105px;
+    height: 105px;
+    border: 5px solid white;
+}
+.circle_div h5{
+    line-height: 105px;
+}
+.orange_div{
+    background: var(--orange);
+}
+.yellow_div{
+    background: var(--yellow);
+}
+.green_div{
+    background: var(--green);
+}
+.blue_div{
+    background: var(--blue);
 }
