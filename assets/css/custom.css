@@ -6,9 +6,10 @@ body{
     --gray:#e6e6e6;
     --silver: #f0f0f0;
     box-sizing: border-box;
+    background: var(--silver);
 
 }
-h1,h2,h3,h4,h5{
+h1,h2,h3,h4,h5,h6{
     font-family: 'Anton';
 }
 p{
@@ -20,6 +21,7 @@ p{
 .logo_box{
     border: 1px solid green;
 }
+
 .logo_box img{
     width:105px;
     height:105px;
@@ -31,26 +33,50 @@ p{
     margin-top: 30px;
     margin-bottom: 30px;
 }
-.spacer{
+
+.nav_spacer{
     height: 10em;
 }
+
+.bottom_spacer {
+    height: 5em;
+}
+
 .circle_div{
     width: 105px;
     height: 105px;
     border: 5px solid white;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
+
+.mini_circle_div{
+    width: 25px;
+    height: 25px;
+    /*margin-top: 5px;*/
+    /*margin-bottom: 5px;*/
+}
+
 .circle_div h5{
-    line-height: 105px;
+    line-height: 100px;
 }
+
 .orange_div{
     background: var(--orange);
 }
+
 .yellow_div{
     background: var(--yellow);
 }
+
 .green_div{
     background: var(--green);
 }
+
 .blue_div{
     background: var(--blue);
+}
+
+.card_props img{
+    width: 100%;
 }
