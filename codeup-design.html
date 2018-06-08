@@ -11,43 +11,48 @@
 </head>
 <!-- xs body will be gray -->
 <body class="bg-secondary">
-    <header>
+    <header class="row">
         <!-- white background. set min width to make overflow -->
-        <nav class="nav_top bg-white navbar">
+        <nav class="nav_top bg-white navbar col-12">
             <div class="space_div d-none d-sm-block col-sm-4 col-md-1 col-lg-3">
-
             <!-- ONLY shows for small devices -->
                 <nav class="left-small-nav">
 
                 </nav>
             </div>
             <!-- main logo. set width/height of box based screen size. -->
-            <div class="logo_box col-4 d-flex justify-content-center">
+            <div class="logo_box col-xs-12 col-lg-4 d-flex justify-content-center">
                 <!-- set image width fluid -->
-                <img class="img-fluid" src="assets/images/logo.png" alt="logo">
+                <img src="assets/images/logo.png" alt="logo">
             </div>
             <!-- only shows for small devices -->
             <div class="right-small-nav">
 
             </div>
-            <div>
+            <div class="col-12 text-center">
                 Codeup Design
             </div>
-            <ul class="nav">
-                <li class="nav-item">services</li>
-                <li class="nav-item">work</li>
-                <li class="nav-item">blog</li>
-                <li class="nav-item">contact</li>
-            </ul>
+            <div class="col-12">
+                <ul class="nav justify-content-center">
+                    <li class="nav-item">services</li>
+                    <li class="nav-item">work</li>
+                    <li class="nav-item">blog</li>
+                    <li class="nav-item">contact</li>
+                </ul>
+            </div>
         </nav>
     </header>
     <div class="container-fluid">
+        <!--<div class="row"></div>-->
         <main>
             <div class="text-center">
-                <div class="row" style="width: 100%;">
-                    <h1>Visual Design & Web Development</h1>
-                </div>
                 <div class="row">
+                    <div class="col-12">
+                        <h1>Visual Design & Web Development</h1>
+                    </div>
+                </div>
+                <!-- instead of cretaing another ROW, replaced with another col-12 set -->
+                <div class="col-12">
                     <h2>From Park City, Utah</h2>
                 </div>
             </div>
