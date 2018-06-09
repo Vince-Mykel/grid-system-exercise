@@ -53,10 +53,10 @@ p{
 .mini_circle_div{
     width: 25px;
     height: 25px;
-
     /*margin-top: 5px;*/
     /*margin-bottom: 5px;*/
 }
+
 .mini_circle_div h6{
     line-height: 25px;
 }
@@ -82,7 +82,8 @@ p{
 }
 .card_props{
 }
+
 .card_props img{
     width: 100%;
-
+    max-height: 245px;
 }
