@@ -26,8 +26,7 @@ p{
     width:105px;
     height:105px;
     position: absolute;
-    top: -40px;
-    margin: 0;
+    top: -35px;
 }
 
 .nav_top{
@@ -91,7 +90,7 @@ p{
     max-height: 245px;
 }
 .logo_spacer{
-    height: 55px;
+    height: 80px;
 }
 
 .last_prop img {
